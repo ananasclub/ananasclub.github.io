@@ -251,7 +251,7 @@ h2{
 	align-items: center;
 	padding: 20px 0px;
 }
-.slider_mobile {display: none}
+.slider_mobile {display: none; position: relative;}
 
 .events_blocks div {
 	display: flex;

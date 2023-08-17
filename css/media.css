@@ -107,4 +107,11 @@
 	padding: 18px 48px;
 }
 
+.events_block_2 {
+	width: 150px;
+	height: 150px;
+	top: -60px;
+	z-index: 3;
+
+}
 }
