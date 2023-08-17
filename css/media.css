@@ -95,3 +95,16 @@
 .events_blocks p {
     padding-bottom: 35px;
 }
+
+
+.btn_mobile {
+	display: block;
+	position: fixed;
+	margin: 0 10%;
+	bottom: 15px;
+	z-index: 999;
+	width: 80%; 
+	padding: 18px 48px;
+}
+
+}
