@@ -1,0 +1,284 @@
+@font-face {
+	 font-family: "font";
+	 src: url("../Jost.ttf");
+}
+ 
+ * {
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'font';
+}
+
+.btn {
+	border-radius: 5px;
+	background: #D52027;
+	display: inline-flex;
+	padding: 25px 54px;
+	justify-content: center;
+	align-items: center;
+	color: #fff; 
+	border: none;
+}
+
+.header {
+	background-color:#141024;
+	color: #fff; 
+	padding-top: 30px;
+}
+
+.logo__name {
+	text-transform: uppercase;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 700;
+} 
+
+.logo__slogan {
+font-size: 20px;
+font-weight: 400;
+padding: 20px 0px 40px;
+}
+
+.header__logo {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 700;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.menu-items {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-items li {
+	padding: 0px 20px;
+}
+
+.header-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-main > div {
+	width: 50%;
+}
+
+.header-main img {
+	max-width: 100%;
+}
+.numbers {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	align-items: center;
+}
+.number_red {
+	color: #D52027;
+
+font-size: 70px;
+font-style: normal;
+font-weight: 600;
+}
+
+.block {
+	padding: 120px 10%;
+}
+ 
+ .block > p {
+ 	font-size: 30px;
+font-style: normal;
+width: 70%;
+
+ }
+
+ h2 {
+ 	color: #141024;
+	font-family: 'font';
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600;
+ }
+
+ .block_2 {
+ 	background: #F9F9F9;
+ }
+
+ h3 {
+ 	color: #141024;
+	font-family: 'font';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+padding-bottom: 20px;
+ }
+ 
+.block_2 img {
+	cursor: pointer;
+}
+
+
+
+ [data-tooltip] {
+    position: relative; /* Относительное позиционирование */ 
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.10);
+   	color: #141024;
+	text-align: center;
+	font-family: 'font';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+    padding: 0.5em; /* Поля вокруг текста */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 0.5s; /* Время появления подсказки */
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: -40px; /* Положение подсказки */
+   }
+
+	
+.slider {
+      position: relative;
+    overflow: hidden;
+  width: 100%;
+  padding-top: 60px;
+
+    
+    }
+
+    .slider__wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+
+
+    }
+
+    .slider__item {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+
+  
+.slider_buttons {
+	text-align:center;
+padding-top: 30px;
+  }
+
+a {
+	text-decoration: none;
+}
+.slider__item a {
+	color: #D52027;
+}
+
+.slider__item p {
+	padding-bottom: 20px;
+}
+
+.price_item {
+	width: 30%;
+	border-radius: 20px;
+border: 1px solid rgba(20, 16, 36, 0.20);
+text-align: center;
+padding: 40px 0px;
+height: 460px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.price_item_active {
+	border-radius: 20px;
+background: #141024;
+height: 500px;
+color: #fff;
+}
+.price_item_active h3, .price_item_active h2 {
+	color: #fff;
+}
+
+.block_4 {
+	padding-top: 0px;
+}
+
+.block_5 {
+	background: #D52027;
+padding: 120px 0% 0px 0%;
+
+}
+.block_5_div {
+	
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding: 0px 10%;
+}
+
+.block_5_div h2 {
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+.block_5_div > div {
+	width: 45%;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	border-radius: 5px;
+background: #F6F6F6;
+font-size: 18px;
+height: 50px;
+border: none;
+margin-bottom: 15px;
+padding: 10px;
+}
+
+
+form button {
+	border-radius: 5px;
+background: #141024;
+font-size: 18px;
+height: 64px;
+color: #fff;
+padding: 10px;
+border: none;
+}
+
+
+.block_6 {
+	background: #141024;
+	padding: 30px 10%;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
